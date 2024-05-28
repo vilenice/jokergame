@@ -1,31 +1,3 @@
-// import { defineConfig } from 'vitepress'
-
-// // https://vitepress.dev/reference/site-config
-// export default defineConfig({
-//   title: "博弈之城",
-//   description: "A VitePress Site",
-//   themeConfig: {
-//     // https://vitepress.dev/reference/default-theme-config
-//     nav: [
-//       { text: '首页', link: '/' },
-//       { text: '游戏', link: '/markdown-examples' }
-//     ],
-
-//     sidebar: [
-//       {
-//         text: '游戏',
-//         items: [
-//           { text: 'Markdown Examples', link: '/markdown-examples' },
-//           { text: 'Runtime API Examples', link: '/api-examples' }
-//         ]
-//       }
-//     ],
-
-//     socialLinks: [
-//       { icon: 'github', link: 'https://github.com/vilenice/jokergame' }
-//     ]
-//   }
-// })
 import { defineConfig, type DefaultTheme } from "vitepress";
 
 function nav(): DefaultTheme.NavItem[] {
@@ -39,7 +11,6 @@ export default defineConfig({
   lang: "zh-CN",
   title: "博弈之城",
   description: "由佩剑行@vilenice和博弈游戏爱好者共建的开源学习社区.",
-
   themeConfig: {
     nav: nav(),
     sidebar: [
@@ -53,7 +24,7 @@ export default defineConfig({
     ],
     footer: {
       message:
-        "本站招募共建者,联系<a href='https://x.com/@MasterCui'>佩剑行</a>",
+        "本站招募共建者,欢迎在github上贡献PR",
     },
     docFooter: {
       prev: "上一页",
@@ -64,7 +35,7 @@ export default defineConfig({
     },
     editLink: {
       pattern:
-        "https://github.com/Fankouzu/solana-basic-ui/edit/main/docs/:path",
+        "https://github.com/vilenice/jokergame/edit/main/docs/:path",
       text: "在 GitHub 上编辑此页面",
     },
     lastUpdated: {
