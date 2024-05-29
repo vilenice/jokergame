@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: '首页', link: '/' },
-    { text: '游戏', link: '/markdown-examples' }
+    { text: '游戏', link: '/蟠桃大会' }
   ];
 }
 
@@ -17,8 +17,12 @@ export default defineConfig({
       {
         text: '游戏',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            text: '超机智青年',
+            items: [
+              { text: '蟠桃大会', link: '/蟠桃大会' },
+            ]
+          }
         ]
       }
     ],
