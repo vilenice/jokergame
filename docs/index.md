@@ -14,8 +14,8 @@ hero:
     alt: VitePress
 features:
   - title: 超机智青年
-    details: 蟠桃大会、39点...
-    link: /蟠桃大会
+    details: 蟠桃大会、39点、黄金捕手、满分算式...
+    link: /超机智青年大会/蟠桃大会
   - title: 魔方立方体
     details: 博弈...
     link: /SolanaValidatorDocumentation/connecting-to-a-cluster

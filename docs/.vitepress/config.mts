@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: '首页', link: '/' },
-    { text: '游戏', link: '/蟠桃大会' }
+    { text: '游戏', link: '/超机智青年大会/蟠桃大会' }
   ];
 }
 
@@ -18,9 +18,16 @@ export default defineConfig({
         text: '游戏',
         items: [
           {
-            text: '超机智青年',
+            text: '超机智青年大会',
             items: [
-              { text: '蟠桃大会', link: '/蟠桃大会' },
+              { text: '蟠桃大会', link: '/超机智青年大会/蟠桃大会' },
+              { text: '39点', link: '/超机智青年大会/39点' },
+              { text: '黄金捕手', link: '/超机智青年大会/黄金捕手' },
+              { text: '满分算式', link: '/超机智青年大会/满分算式' },
+              { text: '全力出击', link: '/超机智青年大会/全力出击' },
+              { text: '命运轮盘', link: '/超机智青年大会/命运轮盘' },
+              { text: '风险投资人', link: '/超机智青年大会/风险投资人' },
+              { text: '时光拍卖会', link: '/超机智青年大会/时光拍卖会' },
             ]
           }
         ]
