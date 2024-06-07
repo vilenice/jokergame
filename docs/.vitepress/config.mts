@@ -29,6 +29,13 @@ export default defineConfig({
               { text: '风险投资人', link: '/超机智青年大会/风险投资人' },
               { text: '时光拍卖会', link: '/超机智青年大会/时光拍卖会' },
             ]
+          },
+          {
+            text: '名侦探学院',
+            items: [
+              { text: '代理人消消乐', link: '/名侦探学院/代理人消消乐' },
+              { text: '通告单争夺战', link: '/名侦探学院/通告单争夺战' },
+            ]
           }
         ]
       }
@@ -48,13 +55,6 @@ export default defineConfig({
       pattern:
         "https://github.com/vilenice/jokergame/edit/main/docs/:path",
       text: "在 GitHub 上编辑此页面",
-    },
-    lastUpdated: {
-      text: "最后更新于",
-      formatOptions: {
-        dateStyle: "short",
-        timeStyle: "medium",
-      },
     },
     search: {
       provider: 'local',

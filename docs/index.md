@@ -16,12 +16,9 @@ features:
   - title: 超机智青年
     details: 蟠桃大会、39点、黄金捕手、满分算式...
     link: /超机智青年大会/蟠桃大会
-  - title: 魔方立方体
-    details: 博弈...
-    link: /SolanaValidatorDocumentation/connecting-to-a-cluster
   - title: 芒果综艺
-    details: 博弈...
-    link: /SolanaProgramLibrary/index
+    details: 名侦探学院...
+    link: /名侦探学院/代理人消消乐
 ---
 
 ---------
